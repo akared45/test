@@ -145,7 +145,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "cd BE_P3 && npm start",
     "client": "cd FE_P3 && npm run dev",
-    "dev": "npm-run-all --parallel server client"
+    "dev": "npm-run-all --parallel server client",
+    "install-all": "npm --prefix BE_P3 install && npm --prefix FE_P3 install"
   },
   "keywords": [],
   "author": "",
